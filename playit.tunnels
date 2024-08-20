@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "member-chicken.gl.joinmc.link",
+          "assigned_srv": "member-chicken.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "837010da-c878-49b3-9028-a6fec1bde779",
+          "ip_hostname": "22.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 12611,
+          "port_start": 12610,
+          "region": "global",
+          "static_ip4": "147.185.221.22",
+          "tunnel_ip": "2602:fbaf:0:1::16"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-08-20T07:05:29.250847Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "42f0a3a6-f3d6-4fad-a7d5-4bd4f16a6995",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "9029082e-fa4b-4a75-8847-142100eb7da5",
+          "agent_name": "surtidogit",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
